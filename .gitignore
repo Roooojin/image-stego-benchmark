@@ -1,8 +1,21 @@
-.venv/
-venv/
+# Python
 __pycache__/
 *.pyc
-.DS_Store
+*.pyo
+
+# Virtual env
+.venv/
+venv/
+
+# IDE
 .idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data inputs (do not commit)
 data/input/
+
+# Optional temp outputs
 results/tmp/
