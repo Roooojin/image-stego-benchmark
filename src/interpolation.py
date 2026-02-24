@@ -18,7 +18,6 @@ def _map_coords(out_len: int, scale: float) -> Array:
 
 
 def resize(gray: Array, scale: float, method: Method = "bilinear") -> Array:
-    """Resize grayscale (H,W) uint8. خروجی uint8."""
     if gray.ndim != 2:
         raise ValueError("resize() expects grayscale image (H,W)")
     if scale <= 0:
